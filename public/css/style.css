@@ -1,8 +1,33 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  /*padding: 50px;*/
+  /*font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;*/
+  font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
 }
 
 a {
   color: #00B7FF;
+}
+
+#section1 {
+    background-image: url("../img/frenchChickenRider.png");
+    background-size: 100%;
+}
+
+#img1 {
+    width: 100%;
+}
+
+header {
+    text-align: center;
+}
+
+#translations {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2}
+th, td {
+    border: 1px solid #ddd;
+    padding: 15px;
 }
